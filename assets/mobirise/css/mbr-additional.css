@@ -1383,6 +1383,17 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #3771a2;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #3771a2;
+}
 .cid-rfVDPjF3vB .navbar {
   padding: .5rem 0;
   background: #333333;
