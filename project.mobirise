@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jacob Christiansen",
-    "currentPage": "dc2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -892,7 +892,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/photo-nov-22-1-55-10-am-2000x1125.png",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": false,
@@ -928,7 +928,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/untitled-2000x1601.png",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": false,
