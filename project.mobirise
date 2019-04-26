@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jacob Christiansen",
-    "currentPage": "index.html",
+    "currentPage": "professional.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -6360,7 +6360,7 @@
               },
               {
                 "tags": "Short Films",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-1947362019-1-1-21-6-50.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019326-1420572019-3-5-15-41-25.jpg",
                 "playVideo": true,
                 "videoUrl": "https://vimeo.com/jacobjc/vacationland",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
@@ -6373,7 +6373,7 @@
               },
               {
                 "tags": "Short Films",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-1947362019-1-1-21-7-31.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019326-1541402019-3-5-15-42-9.jpg",
                 "playVideo": true,
                 "videoUrl": "https://vimeo.com/jacobjc/thewaylifeshouldbe",
                 "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
@@ -6382,7 +6382,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Hired Work",
@@ -6434,7 +6434,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Independent",
