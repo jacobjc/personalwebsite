@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jacob Christiansen",
-    "currentPage": "dc4.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -52,7 +52,7 @@
       }
     ],
     "uniqCompNum": 238,
-    "versionPublish": "4.10.5",
+    "versionPublish": "4.10.10",
     "screenshot": "screenshot.png",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
