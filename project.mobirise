@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Jacob Christiansen",
-    "currentPage": "docproj.html",
+    "currentPage": "professional.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -6344,6 +6344,19 @@
                 "active": false
               },
               {
+                "tags": "Hired Work",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202035-193622020-3-0-20-42-36.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=QV1Z4dSe8QQ&list=PLtyCPsLRcgtKpHH_ku8mQmAaMLRT5OpwE&index=4",
+                "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
+                "thumb": "@PROJECT_PATH@/assets/images/untitled-1500x844-800x450.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
                 "tags": "Short Films",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019326-1420572019-3-5-15-41-25.jpg",
                 "playVideo": true,
@@ -6367,7 +6380,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Hired Work",
@@ -6396,7 +6409,7 @@
                 "active": false
               },
               {
-                "tags": "Independent",
+                "tags": "Short Films",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-178572019-1-1-19-31-50.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=RZKnT783wVE",
@@ -6410,7 +6423,7 @@
               },
               {
                 "tags": "Hired Work",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-178572019-1-1-19-33-20.jpg",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111_178572019-1-1_19-33-20.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=WkreAsKcCR4",
                 "image": "@PROJECT_PATH@/assets/images/img-2983-1920x1080.jpg",
@@ -6419,20 +6432,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Independent",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2019111-178572019-1-1-19-33-20.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=WkreAsKcCR4",
-                "image": "@PROJECT_PATH@/assets/images/untitled-1500x844.png",
-                "thumb": "@PROJECT_PATH@/assets/images/untitled-1500x844-800x450.png",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
+                "active": true
               }
             ]
           }
