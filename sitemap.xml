@@ -18,75 +18,27 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jacobchristiansen.com/professional.html</loc>
+  <loc>https://jacobchristiansen.com/work.html</loc>
   <lastmod>2020-04-06T02:47:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://jacobchristiansen.com/filmphotography.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jacobchristiansen.com/image.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jacobchristiansen.com/text.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jacobchristiansen.com/web.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>https://jacobchristiansen.com/resume.html</loc>
   <lastmod>2020-04-06T02:47:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
 <url>
   <loc>https://jacobchristiansen.com/contact.html</loc>
   <lastmod>2020-04-06T02:47:59+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://jacobchristiansen.com/docproj.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jacobchristiansen.com/imageblog.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jacobchristiansen.com/dc2.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jacobchristiansen.com/dc3.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jacobchristiansen.com/dc4.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jacobchristiansen.com/dc5.html</loc>
-  <lastmod>2020-04-06T02:47:59+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 <url>
   <loc>https://jacobchristiansen.com/assets/files/Resume.pdf</loc>
   <lastmod>2020-04-06T02:47:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 
 </urlset>
