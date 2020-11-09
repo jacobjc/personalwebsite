@@ -783,8 +783,8 @@
           "_sourceTheme": "mobirise4",
           "_cid": "rfRjcPEIvw",
           "_protectedParams": [],
-          "_global": true,
-          "_once": true,
+          "_global": false,
+          "_once": false,
           "_params": {}
         }
       ]
