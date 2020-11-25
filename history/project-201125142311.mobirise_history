@@ -28,13 +28,13 @@
         "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#554346",
         "#e2e2e2",
         "#4b78b3",
         "#f2f2f2",
         "#406da8",
         "#000000",
-        "#ffc98c"
+        "#ffc98c",
+        "#494949"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -1336,11 +1336,11 @@
           "_sourceTheme": "mobirise4",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#4b78b3\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" checked condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#e2e2e2\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/resume-2020.jpeg\" width=\"1400\" alt=\"Jacob Christiansen's Resume\">\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "sgcAxp8JnK",
-          "_anchor": "image3-a6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "image3-a6"
         },
         {
           "_styles": {
@@ -3118,7 +3118,7 @@
             }
           },
           "_name": "header16",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#2e89c2\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    Previous Work</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Jacob Christiansen, award-winning filmmaker\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Jacob Christiansen, award-winning filmmaker\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://jacobchristiansen.com\" data-app-placeholder=\"Type Text\">Jacob Christiansen, award-winning filmmaker</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"\" parallax=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e89c2\" selected=\"\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    Previous Work</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Jacob Christiansen, award-winning filmmaker\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Jacob Christiansen, award-winning filmmaker\n                </p>\n                <div mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://jacobchristiansen.com\" data-app-placeholder=\"Type Text\">Jacob Christiansen, award-winning filmmaker</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_anchor": "header16-9j",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -3198,7 +3198,7 @@
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#000000\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e89c2\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" inline=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#2e89c2\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"2\"></div>\n    </div>\n\n</section>",
           "_anchor": "gallery2-9i",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -3217,30 +3217,17 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Animated",
-                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise20201025_142342020-10-3_14-32-12.jpg",
+                "tags": "Awesome",
+                "videoPreview": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/mobirise2020631-1738482020-6-5-18-26-50.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=VkeWeeh-tuQ&ab_channel=HARDCOREWORLDWIDE",
+                "videoUrl": "https://www.youtube.com/watch?v=LU232sd7v5w",
                 "image": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/untitled-1500x844.png",
                 "thumb": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/untitled-1500x844-800x450.png",
-                "alt": "Popular band Fist Fight worked with filmmaker Jacob J. Christiansen on this music video",
+                "alt": "Kittery, Maine: Traip Academy Graduation 2020 filmed by Seapoint Studios",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>FisT FighT - In This Life (Official Music Video)</b>",
+                "caption": "<b>TRAILER:</b> The Squirrels in the Attic (Award-Winning Short Film)",
                 "active": true
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/mobirise202035-193622020-3-0-19-50-59.jpg",
-                "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=QV1Z4dSe8QQ&list=PLtyCPsLRcgtKpHH_ku8mQmAaMLRT5OpwE&index=4",
-                "image": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/untitled-1500x844.png",
-                "thumb": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/untitled-1500x844-800x450.png",
-                "alt": "Filmmaker Jacob J. Christiansen worked with University of Colorado Boulder to create the \"I'm an Engineer\" series",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "<b>Univ. of Colorado Boulder: \"I'm an Engineer\" Campaign</b>",
-                "active": false
               },
               {
                 "tags": "Awesome",
@@ -3252,20 +3239,33 @@
                 "alt": "The Portsmouth Gas Light Commerical made by local video production company Seapoint Studios",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>Portsmouth Gas Light Commercial</b>",
+                "caption": "Portsmouth Gas Light Commercial",
                 "active": false
               },
               {
-                "tags": "Awesome",
-                "videoPreview": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/mobirise2020631-1738482020-6-5-18-26-50.jpg",
+                "tags": "Animated",
+                "videoPreview": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/mobirise2020427-2320142020-4-3-23-22-27.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=LU232sd7v5w",
+                "videoUrl": "https://www.youtube.com/watch?v=WxV4cbmawIQ",
                 "image": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/untitled-1500x844.png",
                 "thumb": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/untitled-1500x844-800x450.png",
-                "alt": "Kittery, Maine: Traip Academy Graduation 2020 filmed by Seapoint Studios",
+                "alt": "Popular band Fist Fight worked with filmmaker Jacob J. Christiansen on this music video",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>R.W. Traip Academy Commencement 2020</b>",
+                "caption": "FisT FighT - In This Life (Official Music Video)",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/mobirise202035-193622020-3-0-19-50-59.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=QV1Z4dSe8QQ&list=PLtyCPsLRcgtKpHH_ku8mQmAaMLRT5OpwE&index=4",
+                "image": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/untitled-1500x844.png",
+                "thumb": "file:///C:/Users/jacob/Dropbox/Seapoint%20Studios/Website%20Code/assets/images/untitled-1500x844-800x450.png",
+                "alt": "Filmmaker Jacob J. Christiansen worked with University of Colorado Boulder to create the \"I'm an Engineer\" series",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Univ. of Colorado Boulder: \"I'm an Engineer\" Campaign",
                 "active": false
               },
               {
@@ -3278,7 +3278,7 @@
                 "alt": "The award winning short film Vacationland made by local filmmaker Jacob J. Christiansen",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>Maine Outdoor Film Festival (2017)</b>",
+                "caption": "Maine Outdoor Film Festival (2017)",
                 "active": false
               },
               {
@@ -3291,7 +3291,7 @@
                 "alt": "The award winning short film The Way Life Should Be created by native filmmaker Jacob J. Christiansen",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>Maine Outdoor Film Festival (2016)</b>",
+                "caption": "Maine Outdoor Film Festival (2016)",
                 "active": false
               },
               {
@@ -3304,7 +3304,7 @@
                 "alt": "Professional drone footage of the Maine Seacoast",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>Drone Cinematography for Kittery Maine</b>",
+                "caption": "Drone Cinematography for Kittery Maine",
                 "active": false
               },
               {
@@ -3317,7 +3317,7 @@
                 "alt": "Filmmaker Jacob J. Christiansen on set of Lifetime's \"A Very Merry Toy Store\"",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "<b>Lifetime's \"A Very Merry Toy Store\" (Lighting Dept. Assistant)</b>",
+                "caption": "Lifetime's \"A Very Merry Toy Store\" (Lighting Dept. Assistant)",
                 "active": false
               }
             ]
