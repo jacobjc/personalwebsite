@@ -1299,6 +1299,51 @@ section.lazy-placeholder:after {
 .cid-rfRjcPEIvw .media-container-row .row-copirayt p {
   width: 100%;
 }
+.cid-rfRjtX6Otk {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #3970a2;
+}
+.cid-s9iF6bW43p {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/2020-03-09-20-42-59-1662x656.png");
+}
+.cid-s9iF6bW43p .card-box {
+  padding: 0 2rem;
+}
+.cid-s9iF6bW43p .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-s9iF6bW43p .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-s9iF6bW43p h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-s9iF6bW43p p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-s9iF6bW43p .mbr-text {
+  color: #767676;
+}
+.cid-s9iF6bW43p .card-wrapper {
+  height: 100%;
+  padding-bottom: 2rem;
+  background: #ffffff;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-s9iF6bW43p .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
 .cid-rfRllc2igR .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -1690,51 +1735,6 @@ section.lazy-placeholder:after {
 .cid-rfRllc2igR .nav-link:hover,
 .cid-rfRllc2igR .dropdown-item:hover {
   color: #c1c1c1 !important;
-}
-.cid-rfRjtX6Otk {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #3970a2;
-}
-.cid-s9iF6bW43p {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/2020-03-09-20-42-59-1662x656.png");
-}
-.cid-s9iF6bW43p .card-box {
-  padding: 0 2rem;
-}
-.cid-s9iF6bW43p .mbr-section-btn {
-  padding-top: 1rem;
-}
-.cid-s9iF6bW43p .mbr-section-btn a {
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-.cid-s9iF6bW43p h4 {
-  font-weight: 500;
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 2rem;
-}
-.cid-s9iF6bW43p p {
-  margin-bottom: 0;
-  text-align: left;
-  padding-top: 1.5rem;
-}
-.cid-s9iF6bW43p .mbr-text {
-  color: #767676;
-}
-.cid-s9iF6bW43p .card-wrapper {
-  height: 100%;
-  padding-bottom: 2rem;
-  background: #ffffff;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 0.3s;
-}
-.cid-s9iF6bW43p .card-wrapper:hover {
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
 }
 .cid-sgcAxp8JnK {
   background: #4b78b3;
