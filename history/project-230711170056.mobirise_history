@@ -1582,27 +1582,27 @@
                 "tags": "Awesome",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202236_199322022-3-3_20-41-34.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=pfAU28KBcrA",
-                "image": "@PROJECT_PATH@/assets/images/background4.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/background4-800x533.jpg",
+                "videoUrl": "https://vimeo.com/834166389/3c78f0214e",
+                "image": "@PROJECT_PATH@/assets/images/untitled-2-1500x844-800x450.png",
+                "thumb": "@PROJECT_PATH@/assets/images/untitled-2-1500x844-800x450-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Urban Adventure: The 2022 Lincoln Corsair</b><br>",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Awesome",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2023230_1218212023-2-4_12-21-45.jpg",
                 "playVideo": true,
-                "videoUrl": "https://www.youtube.com/watch?v=tBG6W4JSz5g&ab_channel=LandmarkLincoln",
+                "videoUrl": "https://player.vimeo.com/video/834166389?h=3c78f0214e",
                 "image": "@PROJECT_PATH@/assets/images/untitled-2-1500x844.png",
                 "thumb": "@PROJECT_PATH@/assets/images/untitled-2-1500x844-800x450.png",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Eyes Only For You: The 2022 Lincoln Nautilus</b>",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Awesome",
@@ -1667,6 +1667,19 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<b>Univ. of Colorado Boulder: \"I'm an Engineer\" Campaign (4 Videos)</b>",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise202236_199322022-3-3_20-41-34.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=pfAU28KBcrA",
+                "image": "@PROJECT_PATH@/assets/images/background4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/background4-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<b>Urban Adventure: The 2022 Lincoln Corsair</b><br>",
                 "active": false
               }
             ]
