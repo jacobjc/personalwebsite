@@ -88,10 +88,16 @@
 
 
 
-    <embed src="https://app.leaderboarded.com/cfd2fb30-4c64-4edd-adcb-6510b2b1fa29" style="position:fixed; top:-20px; width:100%; height:100%; overflow: hidden;">
+    <iframe id="score"; src="https://app.leaderboarded.com/cfd2fb30-4c64-4edd-adcb-6510b2b1fa29" loading="eager"; style="position:fixed; top:-20px; width:100%; height:100%;"> </iframe>
 
-    <div class="mbr-overlay" style="opacity: 0.0; background-color: rgb(0, 0, 0);"></div>
 
+    <script type="text/javascript">
+       setInterval(refreshIframe, 300000);
+       function refreshIframe() {
+           var frame = document.getElementById("score");
+           frame.src = frame.src;
+       }
+    </script>
 
     
 
