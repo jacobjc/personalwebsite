@@ -212,7 +212,22 @@
     
 </section>
 
-<META HTTP-EQUIV="Refresh" CONTENT="120">
+
+<script type="text/javascript">
+    var target = new Date("March 10, 2024 18:30:00");
+timeOffset = target.getTimezoneOffset() * 60000;
+targetTime = target.getTime();
+targetUTC = targetTime + timeOffset;
+
+var today = new Date();
+todayTime = today.getTime();
+todayUTC = todayTime + timeOffset;
+
+refreshTime = (targetUTC - todayUTC);
+if (refreshTime > 1) {
+setTimeout(function() { window.location.reload(true); }, refreshTime);
+}
+</script>
 
 <script src="assets/popper/popper.min.js"></script>
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
